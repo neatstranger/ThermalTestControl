@@ -233,8 +233,8 @@
     (property "Datasheet" "~" (at 110.236 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 5eb267a7-80a9-4166-9ce4-f4d78806fb59))
     (pin "1" (uuid feb287f3-c220-4908-9b4f-e7a964ca4d9c))
+    (pin "2" (uuid 5eb267a7-80a9-4166-9ce4-f4d78806fb59))
     (instances
       (project "Electrical"
         (path "/869aa179-d08c-47d1-91ac-ef955a1d76ce"
@@ -259,8 +259,8 @@
     (property "Datasheet" "~" (at 147.32 77.216 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 39271a0b-0a16-4bba-877c-ed5745c9553b))
     (pin "1" (uuid 8927d9e3-eb7c-47a7-9acc-0601fb526d98))
+    (pin "2" (uuid 39271a0b-0a16-4bba-877c-ed5745c9553b))
     (instances
       (project "Electrical"
         (path "/869aa179-d08c-47d1-91ac-ef955a1d76ce"
@@ -311,8 +311,8 @@
     (property "Datasheet" "~" (at 147.32 60.706 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 997e07ce-cdf7-46aa-80c9-c740ee118bdb))
     (pin "1" (uuid 900e48d7-95ad-49e6-987d-498122c026be))
+    (pin "2" (uuid 997e07ce-cdf7-46aa-80c9-c740ee118bdb))
     (instances
       (project "Electrical"
         (path "/869aa179-d08c-47d1-91ac-ef955a1d76ce"
@@ -337,8 +337,8 @@
     (property "Datasheet" "~" (at 110.236 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid f1068ede-a243-4765-8d6d-1d97525156fc))
     (pin "1" (uuid 84ece85a-32b5-4859-9feb-026c27944e0f))
+    (pin "2" (uuid f1068ede-a243-4765-8d6d-1d97525156fc))
     (instances
       (project "Electrical"
         (path "/869aa179-d08c-47d1-91ac-ef955a1d76ce"
@@ -363,8 +363,8 @@
     (property "Datasheet" "~" (at 110.236 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c6110444-c33a-4eea-8803-8247a80eb177))
     (pin "1" (uuid 20397239-9b9e-4dd8-8b7b-dbf1fe3390d5))
+    (pin "2" (uuid c6110444-c33a-4eea-8803-8247a80eb177))
     (instances
       (project "Electrical"
         (path "/869aa179-d08c-47d1-91ac-ef955a1d76ce"
@@ -374,27 +374,44 @@
     )
   )
 
-  (sheet (at 207.01 41.91) (size 27.94 21.59) (fields_autoplaced)
+  (sheet (at 219.71 69.85) (size 27.94 21.59) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 2ecf613f-483c-40db-aa29-48b97eee0776)
-    (property "Sheetname" "tmpPhy" (at 207.01 41.1984 0)
+    (property "Sheetname" "tmpPhy" (at 219.71 69.1384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "tempphy.kicad_sch" (at 207.01 64.0846 0)
+    (property "Sheetfile" "tempphy.kicad_sch" (at 219.71 92.0246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "MTRCTRL1" input (at 207.01 50.8 180)
+    (pin "MTRCTRL1" input (at 219.71 78.74 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 19224f23-9cfa-473a-b2c9-648598e5e346)
     )
-    (pin "MTRCTRL2" input (at 207.01 54.61 180)
+    (pin "MTRCTRL2" input (at 219.71 82.55 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid eda33742-d78d-4541-88d3-f2f2069f8049)
     )
     (instances
       (project "Electrical"
         (path "/869aa179-d08c-47d1-91ac-ef955a1d76ce" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 81.28 106.68) (size 25.4 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 96565827-501d-4f65-a2e2-c37deaebcaa3)
+    (property "Sheetname" "MCU" (at 81.28 105.9684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu.kicad_sch" (at 81.28 123.7746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Electrical"
+        (path "/869aa179-d08c-47d1-91ac-ef955a1d76ce" (page "3"))
       )
     )
   )
